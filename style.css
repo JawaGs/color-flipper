@@ -12,12 +12,14 @@ body{
     background: #f0ffff;
     margin: 0;
     font-family: 'New Tegomin', serif;
+    user-select: none;
 }
 
 h1{
     margin: 0;
     font-size: 1.3em;
     letter-spacing: .4em;
+
 }
 
 h2{
@@ -33,7 +35,6 @@ h2{
     border: 2px solid black;
     box-sizing: border-box;
     cursor: pointer;
-    user-select: none;
     outline-style: none;
     width: 17em;
     height: 4em;
